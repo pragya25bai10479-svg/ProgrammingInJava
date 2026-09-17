@@ -109,6 +109,19 @@ Performing budget analysis
 Saving the report
 Handling invalid input
 Exiting the application
+## Screenshots
+
+### Main Menu
+![Main Menu](screenshots/Main%20menu.png)
+
+### Expense Management
+![Expense Management](screenshots/Expense%20addition.png)
+
+### Budget Analysis
+![Budget Analysis](screenshots/Budget%20analysis.png)
+
+### Report Saved
+![Report Saved](screenshots/Expense%20report%20saved.png)
 
 ### Output
 The application displays trip details, traveler information, expense records, total expenses, category-wise expenses, and budget status.
