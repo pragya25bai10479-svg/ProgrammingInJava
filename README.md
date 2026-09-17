@@ -136,3 +136,20 @@ User login and authentication.
 
 ### Conclusion
 Smart Travel Budget Planner demonstrates the practical use of Java and Object-Oriented Programming concepts to develop a simple travel expense management system.
+
+## Design Diagrams
+
+### 1. System Architecture Diagram
+![System Architecture](Diagrams/SystemArchitecture.png)
+
+### 2. Process Flow / Workflow Diagram
+![Process Flow](Diagrams/Processflow.png)
+
+### 3. Use Case Diagram
+![Use Case Diagram](Diagrams/Usecaseflows.png)
+
+### 4. Class Diagram
+![Class Diagram](Diagrams/ClassDiagram.png)
+
+### 5. Sequence Diagram
+![Sequence Diagram](Diagrams/SequenceDiagram.png)
