@@ -1,29 +1,46 @@
 # Smart Travel Budget Planner
 
-## Project Overview
+## Overview
 
-Smart Travel Budget Planner is a Java-based application that helps users plan and manage their travel expenses. It allows users to add traveler details, record expenses, analyze the total budget, and save a travel budget report.
+Smart Travel Budget Planner is a Java-based application designed to help users plan and manage their travel expenses. It allows users to store traveler details, manage different types of expenses, analyze the total budget, and generate a travel budget report.
 
-## Problem Statement
+## Features
 
-Planning a trip involves managing different expenses such as transportation, accommodation, food, and activities. Manually tracking these expenses can be difficult. This project provides a simple application to organize and analyze travel expenses within a given budget.
-
-## Objectives
-
-- Add and manage traveler details.
-- Add, view, update, and delete travel expenses.
+- Create and manage trip details.
+- Add traveler information.
+- Add, view, update, and delete expenses.
+- Categorize expenses into transportation, accommodation, food, activities, and miscellaneous.
 - Calculate total and category-wise expenses.
 - Analyze whether the trip is within the planned budget.
-- Save the final travel report to a file.
+- Save the travel budget report to a text file.
+- Validate user input and handle invalid entries.
 
-## Main Features
+## Technologies and Tools Used
 
-1. Traveler Management
-2. Expense Management
-3. Budget Analysis
-4. Report Generation
-5. Input Validation
-6. File Handling
+- Java
+- Object-Oriented Programming
+- Java ArrayList
+- File Handling
+- Exception Handling
+- VS Code
+- GitHub
+
+## OOP Concepts Used
+
+### Abstraction
+The `Expense` class is an abstract class that provides common properties and behavior for expenses.
+
+### Inheritance
+Different expense types inherit from the `Expense` class.
+
+### Polymorphism
+Different expense objects are handled using the common `Expense` reference.
+
+### Interface
+The `Analyzer` interface defines operations for budget analysis.
+
+### Encapsulation
+Class data members are private and accessed through methods such as getters and setters.
 
 ## Project Structure
 
@@ -46,41 +63,23 @@ ProgrammingInJava/
 │   └── TestCases.txt
 │
 ├── README.md
-└── .gitignore 
+├── statement.md
+└── .gitignore
 ```
 
-## OOP Concepts Used
-
-### Abstraction
-`Expense` is an abstract class that defines common properties and behavior for different types of expenses.
-
-### Inheritance
-Different expense types inherit from the `Expense` class.
-
-### Polymorphism
-Different expense objects are handled using the common `Expense` reference.
-
-### Interface
-The `Analyzer` interface defines the operations used for budget analysis.
-
-### Encapsulation
-Data members are kept private and accessed using methods such as getters and setters.
-
-### Technologies Used
-Java
-Object-Oriented Programming
-ArrayList
-File Handling
-Exception Handling
-
-### How to Run
-Open the project in VS Code or any Java IDE.
-Open the src folder.
-Compile the Java files:
+### Installation and Setup
+Install Java JDK on the computer.
+Download or clone this repository.
+Open the project folder in VS Code.
+Open the src folder in the terminal.
+Compile the Java files using:
 javac *.java
-Run the main program:
+Run the program using:
 java Main
-Menu Options
+How to Use
+
+After running the program, follow the menu displayed on the screen.
+
 1. Add Traveler
 2. Add Expense
 3. View Expenses
@@ -90,15 +89,36 @@ Menu Options
 7. Save Report
 8. Exit
 
+Select an option by entering its number and pressing Enter.
+
+### Testing Instructions
+
+The project contains test cases in:
+
+tests/TestCases.txt
+
+The following functions should be tested:
+
+Creating a trip
+Adding a traveler
+Adding an expense
+Viewing expenses
+Updating an expense
+Deleting an expense
+Performing budget analysis
+Saving the report
+Handling invalid input
+Exiting the application
+
 ### Output
-The application displays travel information, expense records, total expenses, category-wise analysis, and budget status. A report can also be saved as a text file.
+The application displays trip details, traveler information, expense records, total expenses, category-wise expenses, and budget status.
 
 ### Future Scope
-Add a graphical user interface.
-Add database connectivity.
-Add charts for expense analysis.
-Add multiple trip profiles.
-Add login and user authentication.
+Graphical user interface.
+Database connectivity.
+Expense charts and visualizations.
+Multiple trip profiles.
+User login and authentication.
 
 ### Conclusion
-The Smart Travel Budget Planner demonstrates practical use of Java and Object-Oriented Programming concepts to solve a real-world travel budget management problem.
+Smart Travel Budget Planner demonstrates the practical use of Java and Object-Oriented Programming concepts to develop a simple travel expense management system.
