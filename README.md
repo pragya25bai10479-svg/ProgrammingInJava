@@ -143,7 +143,7 @@ Smart Travel Budget Planner demonstrates the practical use of Java and Object-Or
 ![System Architecture](Diagrams/SystemArchitecture)
 
 ### 2. Process Flow / Workflow Diagram
-![Process Flow](Diagrams/Processflow.png)
+![Process Flow](Diagrams/Processflow)
 
 ### 3. Use Case Diagram
 ![Use Case Diagram](Diagrams/Usecaseflows)
