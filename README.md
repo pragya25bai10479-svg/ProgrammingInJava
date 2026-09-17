@@ -10,8 +10,9 @@ Smart Travel Budget Planner is a Java-based application designed to help users p
 - Add traveler information.
 - Add, view, update, and delete expenses.
 - Categorize expenses into transportation, accommodation, food, activities, and miscellaneous.
-- Calculate total and category-wise expenses.
-- Analyze whether the trip is within the planned budget.
+- Calculate total travel expenses.
+- Compare total expenses with the planned budget.
+- Display budget usage and remaining budget.
 - Save the travel budget report to a text file.
 - Validate user input and handle invalid entries.
 
