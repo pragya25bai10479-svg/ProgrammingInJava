@@ -46,7 +46,8 @@ ProgrammingInJava/
 │   └── TestCases.txt
 │
 ├── README.md
-└── .gitignore
+└── .gitignore 
+```
 
 ## OOP Concepts Used
 
@@ -65,13 +66,14 @@ The `Analyzer` interface defines the operations used for budget analysis.
 ### Encapsulation
 Data members are kept private and accessed using methods such as getters and setters.
 
-Technologies Used
+### Technologies Used
 Java
 Object-Oriented Programming
 ArrayList
 File Handling
 Exception Handling
-How to Run
+
+### How to Run
 Open the project in VS Code or any Java IDE.
 Open the src folder.
 Compile the Java files:
@@ -87,16 +89,16 @@ Menu Options
 6. Budget Analysis
 7. Save Report
 8. Exit
-Output
 
+### Output
 The application displays travel information, expense records, total expenses, category-wise analysis, and budget status. A report can also be saved as a text file.
 
-Future Scope
+### Future Scope
 Add a graphical user interface.
 Add database connectivity.
 Add charts for expense analysis.
 Add multiple trip profiles.
 Add login and user authentication.
 
-Conclusion
+### Conclusion
 The Smart Travel Budget Planner demonstrates practical use of Java and Object-Oriented Programming concepts to solve a real-world travel budget management problem.
