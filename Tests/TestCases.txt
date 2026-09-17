@@ -2,12 +2,12 @@ SMART TRAVEL BUDGET PLANNER
 TEST CASES
 
 TC01 - Create Trip
-Input: Enter valid name, destination, number of travelers, days and budget.
-Expected Result: Trip is created successfully.
+Input: Enter valid name, destination, days and budget.
+Expected Result: Trip details are created successfully.
 Status: Pass
 
 TC02 - Add Traveler
-Input: Enter valid traveler name, age and contact.
+Input: Enter valid traveler name and age.
 Expected Result: Traveler is added successfully.
 Status: Pass
 
@@ -18,11 +18,11 @@ Status: Pass
 
 TC04 - View Expenses
 Input: Select option 3.
-Expected Result: All added expenses are displayed.
+Expected Result: Added expenses are displayed.
 Status: Pass
 
 TC05 - Update Expense
-Input: Enter an existing expense ID and new amount/description.
+Input: Enter an existing expense ID, amount and description.
 Expected Result: Expense is updated successfully.
 Status: Pass
 
@@ -33,7 +33,7 @@ Status: Pass
 
 TC07 - Budget Analysis
 Input: Select option 6 after adding expenses.
-Expected Result: Total expense and budget status are displayed.
+Expected Result: Total expense, remaining budget and budget status are displayed.
 Status: Pass
 
 TC08 - Save Report
@@ -42,8 +42,8 @@ Expected Result: Travel budget report is saved successfully.
 Status: Pass
 
 TC09 - Invalid Input
-Input: Enter an invalid menu choice.
-Expected Result: Program asks for a valid number.
+Input: Enter invalid numeric input or menu choice.
+Expected Result: Program handles the invalid input.
 Status: Pass
 
 TC10 - Exit
