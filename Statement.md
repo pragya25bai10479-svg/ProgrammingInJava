@@ -2,32 +2,31 @@
 
 ## Problem Statement
 
-Planning a trip involves managing expenses such as transportation, accommodation, food, and activities. Manually tracking these expenses can be difficult and may lead to overspending. The Smart Travel Budget Planner provides a simple Java-based solution to organize and analyze travel expenses within a planned budget.
+Planning a trip involves managing expenses such as transportation, accommodation, food, and activities. Manually tracking these expenses can lead to overspending. The Smart Travel Budget Planner provides a simple Java-based solution to organize expenses and check them against a planned budget.
 
-## Scope of the Project
+## Scope
 
-The project covers:
+The project allows users to:
 
-- Creating and managing trip details.
-- Storing traveler information.
-- Managing different categories of travel expenses.
-- Adding, viewing, updating, and deleting expenses.
-- Calculating total and category-wise expenses.
-- Comparing expenses with the planned budget.
-- Generating and saving a travel budget report.
+- Create trip details.
+- Add traveler information.
+- Add, view, update, and delete expenses.
+- Calculate total expenses.
+- Analyze the planned budget.
+- Generate and save a travel budget report.
 
 ## Target Users
 
 - Students planning trips.
 - Individual travelers.
 - Friends planning group trips.
-- Users who want to track their travel expenses.
+- Users who want to track travel expenses.
 
 ## High-Level Features
 
-1. **Trip Management** – Stores destination, duration, number of travelers, and budget.
-2. **Traveler Management** – Stores traveler details.
-3. **Expense Management** – Add, view, update, and delete travel expenses.
-4. **Budget Analysis** – Calculates total expenses and checks the budget status.
-5. **Report Generation** – Saves the travel budget information to a text file.
+1. **Trip Management** – Stores name, destination, number of days, and budget.
+2. **Traveler Management** – Stores traveler name and age.
+3. **Expense Management** – Add, view, update, and delete expenses.
+4. **Budget Analysis** – Calculates total expenses and checks budget status.
+5. **Report Generation** – Saves the budget report to a text file.
 6. **Input Validation** – Handles invalid user inputs.
