@@ -149,7 +149,7 @@ Smart Travel Budget Planner demonstrates the practical use of Java and Object-Or
 ![Use Case Diagram](Diagrams/UseCase.png)
 
 ### 4. Class Diagram
-![Class Diagram](Diagrams/ClassDiagram)
+![Class Diagram](Diagrams/ClassDiagram.png)
 
 ### 5. Sequence Diagram
-![Sequence Diagram](Diagrams/SequenceDiagrams)
+![Sequence Diagram](Diagrams/SequenceDiagram.png)
